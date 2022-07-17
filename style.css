@@ -64,7 +64,7 @@ section{
 
 header{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,6)), url('/Projects/Fintech/photos/cowworkers2.png');
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,6)), url('photos/cowworkers2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
