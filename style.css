@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-siziing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 62.5%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    transition: .5s ease;
+}
+
+h1,
+h2,
+p{
+    margin: 0 0 1.6rem 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    padding: 100px 0;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,6)), url('/Projects/Fintech/photos/cowworkers2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: whitesmoke
+}
+
+.logo h1{
+    font-size: 3.2rem;
+    color: #4CAF50;
+    margin: 0;
+}
+
+nav{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav box-icon{
+    display: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a:hover{
+    color: #4CAF50;
+}
+
+.header-content{
+    width: 50%;
+    position: relative;
+    top: 5%;
+    left: 8%;
+}
+
+.header-content p{
+    width: 80%;
+}
+
+form{
+    margin: 2.4rem 0;
+}
+
+form input{
+    font-size: 1.8rem;
+}
+
+input[type=text],
+input[type=email]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type=submit]{
+    width: 60%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+input[type=submit]:hover{
+    background-color: #439946;
+    letter-spacing: 3px;
+}
+
+input::placeholder{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about-left,
+.about-middle,
+.about-right{
+    flex-basis: 30%;
+
+    margin-left: 20px;
+}
+
+.about-left{
+    position: relative;
+    top: -20px;
+
+}
+
+.about-left img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 48px;
+    left: -20px;
+}
+
+.btn{
+    background-color: #4CAF50;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #439946;
+}
+
+.about-2{
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.about-2--left{
+    flex-basis: 50%;
+}
+
+.about-2--right{
+    flex-basis: 30%;
+}
+
+.about-2 .card{
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #dcdcdc;
+    margin: 1.6rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.about-2 .card i{
+    position: relative;
+    top: -10px;
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+
+
+.process .row{
+    width: 90%;
+}
+.box-1,
+.box-2,
+.box-3{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.box-2,
+.box-3{
+    margin-left: 20px;
+}
+
+.process h1{
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    top: -30px;
+}
+
+.process h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.process p{
+    text-align: center;
+}
+
+.progress-bar{
+    position: relative;
+    top: -35px;
+    width: 86.5%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #4CAF50;
+}
+
+.process h1::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -68px;
+    left: 49.3%
+}
+
+.progress-bar::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    top: -12.5px;
+    left: 173px
+}
+
+.progress-bar::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    top: -12.5px;
+    right: 170px;
+}
+
+.testimony{
+    background-color: #222;
+    color: #fff;
+}
+
+
+.testimony img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimony h2{
+    color: #3b943e;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.testimony p{
+    font-size: 1.6rem;
+}
+
+.testimony i{
+    font-size: 20px;
+}
+
+.card-2,
+.card-3{
+    margin-left: 35px;
+}
+
+.card-1,
+.card-2,
+.card-3{
+    background-color: rgb(97, 97, 97);
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.contact .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .row h2{
+    position: relative;
+    top: -20px;
+}
+
+.contact .row form{
+    width: 50%;
+}
+
+.contact .row form input{
+    border: 3px solid #ccc;
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+.contact .row form textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: #ccc;
+    resize: none;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.contact .row form input[type=submit]{
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.contact .row form input[type=submit]:hover{
+    background-color: #439946;
+    letter-spacing: 1px;
+}
+
+footer{
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+footer p span{
+    font-weight: 500;
+    font-size: 20px;
+    color: #4CAF50;
+}
